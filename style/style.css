@@ -1,0 +1,149 @@
+@import url("menu.css");
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Nunito');
+
+body { 
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+	background: url(../images/bg2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  /* -webkit-filter: grayscale(0.6); */
+}
+
+.caption {
+	text-align: center;
+	font-family: 'Archivo Black', sans-serif;
+	margin-top: 100px;
+}
+
+.welcome {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.caption > h1, h2 {
+	color: #ffffff;
+}
+
+
+.welcome > .btn {
+	color: #ffffff;
+	width: 400px;
+	height: 50px;
+	background-color: #1db954;
+	border-color: #1db954;
+	border-style: solid;
+	border-radius: 50px;
+}
+
+.welcome > .btn:active,
+.welcome > .btn:hover {
+	color: #1db954;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+.title {
+	margin-bottom: 50px;
+	text-align: center;
+	border-bottom: dotted;
+	border-bottom-color: #1db954;
+
+}
+
+.Sl1, .Sl2 {
+	text-align: justify;
+}
+
+
+
+img.team {
+	margin-top: 10px;
+	height: 100%;
+	width: 100%;
+	-webkit-filter: grayscale(0.2);
+
+}
+
+
+.wrap {
+	background-color: #374857;
+}
+
+
+.btn-group > .btn {
+	color: #ffffff;
+	width: 200px;
+	height: 50px;
+	background-color: #1db954;
+	border-color: #1db954;
+	border-radius: 0px;
+	border-style: solid;
+}
+
+.btn-group > .btn:hover,
+.btn-group > .btn:active {
+	color: #ffffff;
+	width: 200px;
+	height: 50px;
+	background-color: #1db954;
+	border-bottom: solid;
+	border-bottom-color: #ffffff;
+	border-radius: 0px;
+
+}
+
+.btn-group >.current {
+	color: #ffffff;
+	width: 200px;
+	height: 50px;
+	background-color: #1db954;
+	border-bottom: solid;
+	border-bottom-color: #ffffff;
+	border-radius: 0px;
+}
+
+.bar {
+	background-color: #1db954
+}
+
+
+.details, 
+.desc {
+	text-align: justify;
+}
+
+.event > img {
+  max-width: 100%;
+  
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.event:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+ }
+
+#capabilities_xs > .btn {
+	display: block;
+	color: #ffffff;
+	background-color: #1db954;
+	border-color: #1db954;
+	border-radius: 0px;
+	border-style: solid;
+}
+
+#capabilities_xs > .btn:hover,
+#capabilities_xs > .btn:active,
+#capabilities_xs > .current {
+	color: #ffffff;
+	background-color: #1db954;
+	border-bottom: solid;
+	border-bottom-color: #ffffff;
+	border-radius: 0px;
+}
